@@ -49,6 +49,17 @@ header{
     float: right;
     border: 1px solid red;
     background-color: beige;
+    height: 18em;
+    margin-right: 20px;
+    width: 11em;
+    padding: 30px;
+    
+}
+.form1{
+    margin-top: 70px;
+    float: right;
+    border: 1px solid red;
+    background-color: beige;
     height: 16em;
     margin-right: 20px;
     width: 11em;
@@ -58,7 +69,7 @@ header{
 #button{
     color:white;
     background-color:dodgerblue;
-    width: 98%;
+    width: 94%;
     height: 8%;
     border: none;
 }

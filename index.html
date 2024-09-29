@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <header>
         <img id="logo" src="./image/NirmalaAssignment02.jpg" alt="logo" width="60" height="50">
         <nav class="navbar">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Courses</a>
             <a href="#">Services</a>
             <a href="#">About Us</a>
@@ -28,21 +27,19 @@
     </div>
     <!-- aside ends here -->
     <!-- Login starts here-->
-    <form action="#" class="form">
+    <form action="success.html" class="form">
         <h2>User Login</h2><br>
         <label for="username">Username</label><br>
         <input type="text" placeholder="Username" id="user"><br><br>
-        <span id="user1"></span>
         <label for="password">Password</label><br>
         <input type="password" placeholder="Password" id="pass"><br><br>
-        <label for="password">Phone Number</label><br>
-        <input type="text" placeholder="Phone number" id="phoneno">
-        <span id="pass1"></span>
-        <br><br>
-        <input type="button" value="Log in" id="button" onclick="return phonenumber()"><br>
+        <span id="error"></span>
+        <label for="phone_number">Phone Number</label><br>
+        <input type="text" placeholder="Phone number" id="phone_number"><br><br>
+        <button id="button" onclick="return validate()">Log in</button><br><br>
         <h5>Need an account?</h5>
-        <a href="#">Sign up</a>
-    </form>
+        <a href="signup.html">Sign up</a>
+      </form>
     <!-- Login ends here -->
     <!-- Courses Starts here-->
     <div class="container">

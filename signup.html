@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./image/NirmalaAssignment02.jpg" alt="logo" width="60" height="50">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <!-- Login starts here-->
+    <form action="success.html" class="form1">
+        <h2>Sign Up</h2><br>
+      
+        <label for="username">Username</label><br>
+        <input type="text" placeholder="Username" id="user"><br><br>
+        <span id="user1"></span>
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="Password" id="pass"><br><br>
+        <label for="phone_number">Phone Number</label><br>
+        <input type="text" placeholder="Phone number" id="phone_number"><br><br>
+        <span id="error"></span>
+        <button id="button" onclick="return validate()">Log in</button><br><br>
+      </form>
+    <!-- Login ends here -->
+    <!--footer starts here-->
+    <footer>
+        copyright@2024
+    </footer>
+    <!--footer ends here-->
+    <script src="script.js"></script>
+</body>
+</html>
