@@ -30,7 +30,7 @@ function validate() {
 
 function checkPasswordStrength() {
     const password = pass.value;
-    const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$/;
+    const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*(),.?":{}|<>]).{8,}$/;
 
     if (!password) {
         pass.style.border = "";
